@@ -1,13 +1,23 @@
 #!/usr/bin/env python
 
+
+############################################ 
+#                                          #
+#   Write by: Christian Contreras-Campana  #
+#   email: christian.contreras@desy.de     #
+#   Date: 20.10.2017                       #
+#                                          #
+############################################
+
+
 import collections
 import re
 import os
 
 from optparse import OptionParser
 
-# CODE PURPOSE: To create a comma separated value (csv) file which contains the break down of the nominal values for systematics included below
-# RUN EXAMPLE: python systematic_yield_extraction.py -f EventYields_selectionRoot_mvaEventA/Nominal/combined/lumiCorrected_events_step7.txt
+''' CODE PURPOSE: To create a comma separated value (csv) file which contains the break down of the nominal values for systematics included below \n
+    RUN EXAMPLE: python systematic_yield_extraction.py -f EventYields_selectionRoot_mvaEventA/Nominal/combined/lumiCorrected_events_step7.txt'''
 
 # ---- Command line option parsing
 parser = OptionParser()
